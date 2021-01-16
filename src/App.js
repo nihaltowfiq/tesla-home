@@ -84,13 +84,11 @@ function App() {
         />
         <Item
           title="Accessories"
-          desc="Order Online for Touchless Delivery"
+          desc=""
           descLink=""
           backgroundImg={Accessories}
-          leftBtnTxt="CUSTOM ORDER"
+          leftBtnTxt="SHOP NOW"
           leftBtnLink=""
-          rightBtnTxt="LEARN MORE"
-          rightBtnLink=""
         />
       </div>
     </div>

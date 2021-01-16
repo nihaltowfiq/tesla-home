@@ -35,15 +35,15 @@ const Item = ({
             <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
 
             {twoButtons && (
-              <Button imp="seconday" text={rightBtnTxt} link={rightBtnLink} />
-            )}
-
-            {first && (
-              <div className="item_expand">
-                <ExpandMoreIcon />
-              </div>
+              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
             )}
           </div>
+
+          {first && (
+            <div className="item_expand">
+              <ExpandMoreIcon fontSize="large" />
+            </div>
+          )}
         </div>
       </div>
     </div>
