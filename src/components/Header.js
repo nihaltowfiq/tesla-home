@@ -17,6 +17,11 @@ const Header = () => {
         <p>Solar Roof</p>
         <p>Solar Panel</p>
       </div>
+
+      <div className="header_right">
+        <p>Shop</p>
+        <p>Tesla Account </p>
+      </div>
     </div>
   );
 };
